@@ -66,6 +66,7 @@ int main ()
         break;
     }
     choice = 0;
+    std::cout << "The card that was chosen was the " << randomCard.suit << " of " << randomCard.face << ".\n";
   }
   return 0;
 }
