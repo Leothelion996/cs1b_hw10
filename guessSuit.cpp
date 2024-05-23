@@ -13,13 +13,10 @@ void guessSuit(struct card& deck)
   std::string temp = fixSuitInput(choice);
   choice = temp;
 
-    //TESTING PUROSE
-    std::cout << choice << " & " << deck.suit << "\n";
-
   //check if card faces match
   if(choice == deck.suit)
   {
-    std::cout << "*******************************\n*You guessed the correct face!*\n";
+    std::cout << "\n*******************************\n*You guessed the correct face!*\n";
     std::cout << "*******************************\n";
   }
   else

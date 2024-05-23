@@ -11,13 +11,10 @@ void guessFace(struct card& deck)
   std::string temp = fixFaceInput(choice);
   choice = temp;
 
-    //TESTIG PUROSE
-    std::cout << choice << " & " << deck.face << "\n";
-
   //check if card faces match
   if(choice == deck.face)
   {
-    std::cout << "*******************************\n*You guessed the correct face!*\n";
+    std::cout << "\n*******************************\n*You guessed the correct face!*\n";
     std::cout << "*******************************\n";
   }
   else
