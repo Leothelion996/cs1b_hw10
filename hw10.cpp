@@ -26,7 +26,7 @@ int main ()
     std::random_device rd;
     std::mt19937 g(rd());
     std::shuffle(deck.begin(), deck.end(), g);
-    
+
     //choose a random card.
     std::random_shuffle(deck.begin(),deck.end());
     int randomIndex = rand() % 52;
@@ -56,6 +56,7 @@ int main ()
           guessFace(randomCard);
           break;
         case 2:
+          guessSuit(randomCard);
           break;
         case 3:
           break;

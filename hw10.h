@@ -29,7 +29,9 @@ struct card
 };
 
 void guessFace(struct card& deck);
+void guessSuit(struct card& deck);
 std::string fixFaceInput(std::string choice);
+std::string fixSuitInput(std::string choice);
 
 
 
