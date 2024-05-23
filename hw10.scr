@@ -1,0 +1,191 @@
+Script started on 2024-05-22 22:10:40-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="26"]
+]0;stdsoul@csvm: ~/Documents/CS1B/hw10[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw10[00m$ make all[K[K[K[K[K[K[K[Kgit log
+[?1h=[33mcommit 18e3d6230222769fb8311a41164288fdf754aae7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: Leonardo Herrera <leonardo.herrera1996@yahoo.com>[m
+Date:   Wed May 22 22:06:47 2024 -0700[m
+[m
+    Added a line after the loop to tell you what the chosen card was at the end of each round[m
+[m
+[33mcommit 264f87426e15302aca2b40025d0963e3c70acb2b[m[m
+Author: Leonardo Herrera <leonardo.herrera1996@yahoo.com>[m
+Date:   Wed May 22 22:04:50 2024 -0700[m
+[m
+    Added the loop so the game will play until closed. Tested with a few rounds. Removed all the outputs that would show me the chosen card for test[m ing[m
+[m
+[33mcommit f29d38ee3e9830c83bc1ec9dfa568c2fcb8c2d12[m[m
+Author: Leonardo Herrera <leonardo.herrera1996@yahoo.com>[m
+Date:   Wed May 22 21:36:08 2024 -0700[m
+[m
+    Added the guess suit function and messages.[m
+[m
+[33mcommit b6996c06ee260b414a0852e03321fec204469506[m[m
+Author: Leonardo Herrera <leonardo.herrera1996@yahoo.com>[m
+Date:   Wed May 22 21:32:22 2024 -0700[m
+[m
+    First Commit. Set up random number and Guess face Function.[m
+[K[?1l>]0;stdsoul@csvm: ~/Documents/CS1B/hw10[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw10[00m$ make all
+g++ -c guessboth.cpp -o guessboth.o
+g++    -c -o guessFace.o guessFace.cpp
+g++ -c guessSuit.cpp -o guessSuit.o
+g++ hw10.cpp -o hw10 guessboth.o guessFace.o guessSuit.o
+]0;stdsoul@csvm: ~/Documents/CS1B/hw10[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw10[00m$ ./hw10
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+1
+
+*******************************
+*You guessed the correct face!*
+*******************************
+The card that was chosen was the Ten of Hearts.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the Four of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+Hearts
+You guessed incorrectly.
+The card that was chosen was the Six of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+hearts      1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the Five of Clubs.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the Six of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the Queen of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+spades
+You guessed incorrectly.
+The card that was chosen was the King of Diamonds.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+spades
+You guessed incorrectly.
+The card that was chosen was the Seven of Clubs.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the King of Clubs.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+You guessed incorrectly.
+The card that was chosen was the Five of Diamonds.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+1
+Enter Your Choice.
+hearts
+
+*******************************
+*You guessed the correct face!*
+*******************************
+The card that was chosen was the Eight of Hearts.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+2
+Enter Your Choice.
+ace
+You guessed incorrectly.
+The card that was chosen was the Four of Diamonds.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+2
+Enter Your Choice.
+3
+You guessed incorrectly.
+The card that was chosen was the Ace of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+3
+Enter Your Choice for the face.
+heaarts    rts
+Enter Your Choice for the Suit.
+8
+Printing out Choices Eight of HeartsYou guessed incorrectly.
+The card that was chosen was the King of Spades.
+Want to play?
+1. Guess the face
+2. Guess the suit
+3. Guess both
+4. End Game
+4
+Goodbye.
+The card that was chosen was the Nine of Clubs.
+]0;stdsoul@csvm: ~/Documents/CS1B/hw10[01;32mstdsoul@csvm[00m:[01;34m~/Documents/CS1B/hw10[00m$ exigt[K[Kt
+exit
+
+Script done on 2024-05-22 22:14:19-07:00 [COMMAND_EXIT_CODE="0"]

@@ -17,4 +17,4 @@ clean:
 	rm hw10 *.o
 
 tar:
-	tar cf hw10.tar *.cpp *.txt *.h *.scr makefile
+	tar cf hw10.tar *.cpp *.h *.scr makefile
